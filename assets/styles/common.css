@@ -1,0 +1,46 @@
+.container{
+    max-width: 1140px;  
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-content-space{
+    justify-content: space-around;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}    
+
+.justify-content-space-early{
+    justify-content: space-evenly;
+}
+
+.text--center{
+    text-align: center !important;
+}
+
+.flex-direction{
+    flex-direction: column;
+}
+
+.justify-content--center{
+    justify-content: center;
+}
+
+/* Gap  */
+
+.gap-50{
+    gap: 50px;
+}
+
+/* font- family */
+
+.font-family{
+    font-family: 'Poppins', sans-serif;
+}

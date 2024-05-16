@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wexim</title>
+    <link rel="icon" type="favicon-icon" href="./assets/image/favicon.ico">
+
+    <!--Css file-->
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="./assets/styles/common.css">
+
+    <!---font-family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!----Fa Fa icon cdn---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+<body>
+    <!----main-class---->
+    <div class="main--class">
+        <div class="container">
+            <nav class="navbar flex justify-content-space ">
+                <!---main-navbar---> 
+                <div class="navbar-collapse flex justify-content-space-between">
+                    <div class="navabr-section1 flex gap-50 ">
+                        <a class="nav-link1 " href="#">Home</a>
+                        <a class="nav-link " href="#">About</a>
+                        <a class="nav-link " href="#">Team</a>  
+                        <a class="nav-link " href="#">Work</a>
+                    </div>  
+                    <div class="navabr-section2 flex gap-50">
+                        <img src="assets/image/assest-1.png" alt="logo">
+                    </div>
+                    <div class="navabr-section3 flex gap-50 ">
+                        <a class="nav-link " href="#">Pricing</a>
+                        <a class="nav-link " href="#">App</a>
+                        <a class="nav-link " href="#">Blog</a>
+                        <a class="nav-link " href="#">Contact</a>
+                    </div>
+                    <!-- -Side Menu Button---> 
+                    <!-- <div class="navabr-section4">
+                        <a href="javascript:void(0)" class="d-inline-block sidemenu_btn fas da-bars" id="sidemenu_toggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div> -->
+                </div>
+            </nav>
+            <!---first template--->
+            <section class="hero-wrapper flex  text--center justify-content--center">
+                <div class="hero-wrapper-button">
+                    <div class="button-play-wrap">
+                        <a href="https://youtu.be/25ROFXjoaAU?si=If7F9h_1Hq207QQ4" class="button-play"><i class="fa fa-play"></i></a>
+                    </div>
+                    <h2 class="hero-header font-family">Most Flexible One Page HTML5 Template</h2>
+                    <p class="hero-para">The integration of web fonts has always been one of the largest contributing factors to diversity in the overall look and feel of websites today vs. yesterday.</p>
+                    <div class="hero-wrap-btn">
+                    <a class="hero-wrapper-btn1">Learn More</a>
+                    <a class="hero-wrapper-btn2">Learn More</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!----brands section ---->
+    <div class="brands-main-section">
+        <div class="container-brands">
+            <div class="brands-wrapper flex">
+                <div class="brand-wrap">
+                   <div class="brands-skill">
+                    <div class="title-brands">
+                        <h6 class="brands-header">ALWAYS BEHIND THE BRANDS</h6>
+                        <h2 class="brands-heading">A Studio Helping Web 2.0 Gain Some Momentum.</h2>
+                        <p class="brands-para">The integration of web fonts has always been one of the largest contributing factors to diversity in the overall look and feel of websites today vs. yesterday.</p>
+                    </div>
+                    <div class="brands-bar-main">
+                    <div class="progress-bar-brands">
+                        <div class="progresss-bar">
+                            <h4 class="progress-bar-brands-number">Project Management <span class="number">90%</span></h4>
+                            <progress id="progress" value="90" max="100"></progress>
+                        </div>
+                    </div>  
+                    <div class="progress-bar-brands">
+                        <div class="progresss-bar">
+                            <h4 class="progress-bar-brands-number">Web Consulting <span class="number">75%</span></h4>
+                            <progress id="progress" value="75" max="100"></progress>
+                        </div>
+                    </div>
+                    <div class="progress-bar-brands">
+                        <div class="progresss-bar">
+                            <h4 class="progress-bar-brands-number">Web Consulting <span class="number">75%</span></h4>
+                            <progress id="progress" value="75" max="100"></progress>
+                        </div>
+                    </div>
+                    </div>
+                    <a href="#" class="brands-wrapper-btn">Get Started</a>
+                   </div>     
+                </div>
+                <div class="brand-wrap-img">
+                    <img  id="brands-wrapping-img" src="./assets/image/asset 2.jpeg" alt="brands-img" >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------services section------>
+    <section class="services-section">
+        <div class="container">
+            <div class="services-wrap">
+                <div class="services-wrapping">
+                    <div class="title-services">
+                    <h6 class="services-header">Basic info about componay</h6>
+                    <h2 class="services-heading">Our Services</h2>
+                    <p class="services-para">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="services-section-wrap  flex">
+                <div class="services-section-wrapping">
+                    <div class="feature-services">
+                        <span class="item-number-services"> 01.</span>
+                        <h6 class="services-wrap-header">Website Design</h6>
+                        <p class="services-wrap-para">Lorem ipsum dolor  amet, consectetur adipiscing elit augue diam, accumsan  ipsum dolor sit amet, consectetur adipiscing.</p>
+                    </div>
+                </div>
+           
+            <div class="services-section-wrapping">
+                <div class="feature-services">
+                    <span class="item-number-services"> 02.</span>
+                    <h6 class="services-wrap-header">Website Development</h6>
+                    <p class="services-wrap-para">Lorem ipsum dolor  amet, consectetur adipiscing elit augue diam, accumsan  ipsum dolor sit amet, consectetur adipiscing.</p>
+                </div>
+            </div>
+            <div class="services-section-wrapping">
+                <div class="feature-services">
+                    <span class="item-number-services"> 03.</span>
+                    <h6 class="services-wrap-header">Project Management</h6>
+                    <p class="services-wrap-para">Lorem ipsum dolor  amet, consectetur adipiscing elit augue diam, accumsan  ipsum dolor sit amet, consectetur adipiscing.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+<!----potential section ---->
+
+    <section class="potential-section">
+        <div class="container">
+            <div class="potential-section-wrap">
+                <div class="potential-section-wrppinng">
+                    <div class="potential-title">
+                        <h6 class="potential-header">Unleash your creative potential with Wexim</h6>
+                        <h2 class="potential-heading">Looking For Exclusive Digital Services?</h2>
+                        <a href="#" class="potential-btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----Heads Section---->
+    <section class="heads-section">
+        <div class="container">
+            <div class="heads-section-wrap">
+                <div class="heads-section-wrapping">
+                    <div class="headds-title">
+                        <h6 class="heads-header">Basic info about componay</h6>
+                        <h2 class="heads-heading">Creative Heads</h2>
+                        <p class="heads-para">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. </p>
+                    </div>
+                </div>
+            </div>
+
+            <!---Heads-section-team--->
+            <div class="heads-team-wrap flex">
+                <div class="heads-team-wrapping">
+                    <div class="heads-team-title">
+                        <div class="heads-team-img">
+                            <img class="heads-team-img-des" src="./assets/image/asset 3.jpeg" alt="team-img">
+                        </div>
+                        <div class="heads-team-content">
+                            <h4 class="heads-team-header">Alex Walkin</h4>
+                            <span class="headds-team-heading">Developer</span>
+                            <p class="heads-team-para" >Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
+                            <div class="heads-team-icon">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-pinterest"></i>
+                                <i class="fa fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heads-team-wrapping">
+                    <div class="heads-team-title">
+                        <div class="heads-team-img">
+                            <img class="heads-team-img-des" src="./assets/image/asset 5.jpeg" alt="team-img">
+                        </div>
+                        <div class="heads-team-content">
+                            <h4 class="heads-team-header">Alex Walkin</h4>
+                            <span class="headds-team-heading">Developer</span>
+                            <p class="heads-team-para" >Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
+                            <div class="heads-team-icon">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-pinterest"></i>
+                                <i class="fa fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heads-team-wrapping">
+                    <div class="heads-team-title">
+                        <div class="heads-team-content">
+                            <h4 class="heads-team-header">Alex Walkin</h4>
+                            <span class="headds-team-heading">Developer</span>
+                            <p class="heads-team-para" >Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
+                            <div class="heads-team-icon">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-pinterest"></i>
+                                <i class="fa fa-instagram"></i>
+                            </div>
+                        </div>
+                        <div class="heads-team-img">
+                            <img class="heads-team-img-des" src="./assets/image/asset 4.jpeg" alt="team-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heads-team-wrapping">
+                    <div class="heads-team-title">
+                        <div class="heads-team-content">
+                            <h4 class="heads-team-header">Alex Walkin</h4>
+                            <span class="headds-team-heading">Developer</span>
+                            <p class="heads-team-para" >Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
+                            <div class="heads-team-icon">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-pinterest"></i>
+                                <i class="fa fa-instagram"></i>
+                            </div>
+                        </div>
+                        <div class="heads-team-img">
+                            <img class="heads-team-img-des" src="./assets/image/asset 6.jpeg" alt="team-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----portfolio-section------>
+
+    <section class="portfolio-section">
+        <div class="portfolio-background-color">
+        <div class="container">
+            <div class="portfolio-wrap ">
+                <div class="portfolio-wrapping">
+                    <div class="portfolio-img-1">
+                        <img class="portfolio-img-wrap" src="/assets/image/portfolio-chair.jpg" alt="portfolio chair">
+                        <div class="portfolio-img-intro">
+                            <div class="portfolio-title">
+                                <i class=" fa fa-plus fa-icon-portfolio" href="/assets/image/portfolio-chair.jpg"></i>
+                                <h4 class="portfolio-img-wrap-header">Latest Work</h4>
+                                <p class="portfolio-img-wrap-heading">See Our Amazing Work</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-img-1">
+                        <img class="portfolio-img-wrapping-2 portfolio-img-wrap" src="/assets/image/asset 9.jpeg" alt="portfolio chair">
+                        <div class="portfolio-img-intro">
+                            <div class="portfolio-title">
+                                <i class=" fa fa-plus fa-icon-portfolio" href="/assets/image/portfolio-chair.jpg"   ></i>
+                                <h4 class="portfolio-img-wrap-header">Latest Work</h4>
+                                <p class="portfolio-img-wrap-heading">See Our Amazing Work</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                <div class="portfolio-item flex">
+                    <div class="portfolio-item-left">
+                        <p class="portfolio-header">We’ve Completed More Than</p>
+                        <!-- <h2 class="portfolio-number">682</h2> -->
+                        <p class="portfolio-para">projects for our amazing clients,</p>
+                    </div>
+                    <div class="portfolio-item-right-button">
+                        <a href="#" class="portfolio-btn" >View All Work</a>
+                    </div>
+                </div>
+            </div>
+
+            <!----portfilio section secound-column---->
+            <div class="portfolio-right ">
+                <div class="portfolio-item-right ">
+                <h6 class="portfolio-right-header">Basic info about componay</h6>
+                <h2 class="portfolio-right-heading">Creative Portfolio</h2>
+                <p class="portfolio-right-para">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. </p>
+                </div>
+
+            <div class="portfolio-imges">
+            <div class="portfolio-img-1">
+                <img class="portfolio-img-wrapping-3 portfolio-img-wrap" src="/assets/image/asset 8.jpeg" alt="portfolio chair">
+                <div class="portfolio-img-intro">
+                    <div class="portfolio-title">
+                        <i class=" fa fa-plus fa-icon-portfolio" href="/assets/image/portfolio-chair.jpg"   ></i>
+                        <h4 class="portfolio-img-wrap-header">Latest Work</h4>
+                        <p class="portfolio-img-wrap-heading">See Our Amazing Work</p>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-img-1">
+                <img class="portfolio-img-wrapping-4 portfolio-img-wrap" src="/assets/image/asset 10.jpeg" alt="portfolio chair">
+                <div class="portfolio-img-intro-4">
+                    <div class="portfolio-title">
+                        <i class=" fa fa-plus fa-icon-portfolio" href="/assets/image/portfolio-chair.jpg"   ></i>
+                        <h4 class="portfolio-img-wrap-header">Latest Work</h4>
+                        <p class="portfolio-img-wrap-heading">See Our Amazing Work</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </section>
+
+    <!----Pricing section ---->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="pricing-wrap">
+                <div class="pricing-wrapping">
+                    <div class="pricing-title">
+                        <h6 class="pricing-header">Most flexible pricing</h6>
+                        <h2 class="pricing-heading">Easy Pricing</h2>
+                        <p class="pricing-para">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. </p>
+                    </div>
+                </div>  
+            </div>
+
+            <!-----pricing section box----->
+            <div class="pricing-wrap-box flex">
+                <div class="pricing-wrapping-box">
+                    <div class="pricing-title-box-left">
+                        <h3 class="pricing-box-header">Starter Plan</h3>
+                        <p class="pricing-box-para">If you are a small business and you are interested in small rebranding then this is a perfect plan for you</p>
+                        <div class="pricing-box-money">
+                            <h3 class="pricing-box-currancy"><span class="sign">$</span>29.99</h3>
+                            <span class="pricing-box-month"> MONTH</span>
+                        </div>
+                        <ul class="pricing-box-package">
+                            <li class="pricing-box-list"><i class="fa fa-check check-icon" aria-hidden="true"></i>Full access</li>
+                            <li class="pricing-box-list"><i class="fa fa-check check-icon" aria-hidden="true"></i>Unlimited Bandwidth</li>
+                            <li class="pricing-box-list"><i class="fa fa-check check-icon" aria-hidden="true"></i>Unlimited Bandwidth</li>
+                            <li class="pricing-box-list"><i class="fa fa-check check-icon" aria-hidden="true"></i>Powerful Admin Panel</li>
+                            <li class="pricing-box-list"><i class="fa fa-times check-icon" aria-hidden="true"></i>Email Accounts</li>
+                            <li class="pricing-box-list"><i class="fa fa-times check-icon" aria-hidden="true"></i>Email Accounts</li>
+                            <li class="pricing-box-list"><i class="fa fa-times check-icon" aria-hidden="true"></i>8 Free Forks Every Months</li>
+                        </ul>
+
+                        <a href="#" class="pricing-box-btn-left">Get Started</a>
+                    </div>
+                </div>
+
+                <div class="pricing-wrapping-box">
+                    <div class="pricing-title-box-right">
+                        <h3 class="pricing-box-header">Business Plan</h3>
+                        <p class="pricing-box-para">If you are a small business and you are interested in small rebranding then this is a perfect plan for you</p>
+                        <div class="pricing-box-money">
+                            <h3 class="pricing-box-currancy-right"><span class="sign-right">$</span>29.99</h3>
+                            <span class="pricing-box-month-right"> MONTH</span>
+                        </div>
+                        <ul class="pricing-box-package">
+                            <li class="pricing-box-list"><i class="fa fa-check check-icon" aria-hidden="true"></i>Full access</li>
+                            <li class="pricing-box-list"><i class="fa fa-check check-icon" aria-hidden="true"></i>Unlimited Bandwidth</li>
+                            <li class="pricing-box-list"><i class="fa fa-check check-icon" aria-hidden="true"></i>Unlimited Bandwidth</li>
+                            <li class="pricing-box-list"><i class="fa fa-check check-icon" aria-hidden="true"></i>Powerful Admin Panel</li>
+                            <li class="pricing-box-list"><i class="fa fa-times check-icon" aria-hidden="true"></i>Email Accounts</li>
+                            <li class="pricing-box-list"><i class="fa fa-times check-icon" aria-hidden="true"></i>Email Accounts</li>
+                            <li class="pricing-box-list"><i class="fa fa-times check-icon" aria-hidden="true"></i>8 Free Forks Every Months</li>
+                        </ul>
+
+                        <a href="#" class="pricing-box-btn-right">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----about-company------>
+    <section id="about-company">
+        <div class="about-company-wrap flex">
+            <div class="about-company-wrapping">
+                <div class="about-company-title">
+                    <i class="fa fa-quote-right" style="font-size: 36px;"></i>
+                    <p class="about-company-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum commodo, sem magna laoreet tellus, eu euismod dolor enim et mi. In at tempor purus. Nunc aliquet lacus vel posuere volutpat. Fusce ultrices sollicitudin nisl nec elementum. </p>
+                <div class="about-company-img">
+                    <img class="about-company-img-employee" src="./assets/image/asset 13.jpeg" alt="about company">
+                </div>
+                <h5 class="about-company-header">Stephine Jhon</h5>
+                <span class="about-company-heading">General Manager, The Company Inc.</span>
+            </div>
+            </div>
+            <!----about company photo----->
+            <div class="about-company-wrapping-right">
+                <div class="about-company-right-img">
+                    <div class="about-section-title">
+                    <div class="about-company-right-counter">
+                        <p class="about-company-number">69</p>
+                        <h6 class="about-company-des">Award Won</h6>
+                    </div>
+                    <div class="about-company-right-counter">
+                        <p class="about-company-number">780</p>
+                        <h6 class="about-company-des">Employees</h6>
+                    </div>
+                    <div class="about-company-right-counter">
+                        <p class="about-company-number">456</p>
+                        <h6 class="about-company-des">Happy Clients</h6>
+                    </div>
+                    <div class="about-company-right-counter">
+                        <p class="about-company-number">599</p>
+                        <h6 class="about-company-des">Finished Projects</h6>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----App Section----->
+    <section class="app-section">
+        <div class="container">
+            <div class="app-section-wrap">
+                <div class="app-section-wrapping">
+                    <div class="app-section-title">
+                        <h6 class="app-section-header">Most reliable application</h6>
+                        <h2 class="app-section-heading">Mobile App Design</h2>
+                        <p class="app-section-para">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. </p>
+                    </div>  
+                </div>
+            </div>
+
+            <!--App deatil-->
+
+            <div class="app-wrap flex">
+                <div class="app-wrapping-1">
+                    <div class="app-title">
+                        <i class="fa fa-diamond fa-3x fa-icon-app" ></i>
+                        <h4 class="app-header">Theme Options</h4>
+                        <p class="app-para">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit Suspendisse in orci enim gravida nibh.</p>
+                    </div>
+                    <div class="app-title">
+                        <i class="fa fa-edit fa-3x fa-icon-app" ></i>
+                        <h4 class="app-header">Customization</h4>
+                        <p class="app-para">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit Suspendisse in orci enim gravida nibh.</p>
+                    </div>
+                </div>
+
+                <div class="app-wrapping">
+                    <div class="app-img">
+                        <img class="app-iphone-img" src="./assets/image/asset 14.png" alt="iphone-img">
+                        <div class="item">
+                            <img class="app-img-iphone-slider" src="./assets/image/asset 17.jpeg" alt="enter-iphone-img">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="app-wrapping-1">
+                    <div class="app-title">
+                        <i class="fa fa-code fa-3x fa-icon-app" ></i>
+                        <h4 class="app-header">Powerful Code</h4>
+                        <p class="app-para">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit Suspendisse in orci enim gravida nibh.</p>
+                    </div>
+                    <div class="app-title">
+                        <i class="fa fa-folder-open-o fa-3x fa-icon-app" ></i>
+                        <h4 class="app-header">Documentation</h4>
+                        <p class="app-para">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit Suspendisse in orci enim gravida nibh.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----Living dreams section----->
+    <section class="living-dreams-section">
+        <!-- <div class="container"> -->
+            <div class="living-dreams-wrap">
+                <div class="living-dreams-wrapping">
+                    <div class="living-dreams-title">
+                        <h6 class="living-dreams-header">January 14, 2019</h6>
+                        <h2 class="living-dreams-heading">Living Your Dreams</h2>
+                        <p class="living-dreams-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodt temp to the incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis a nostr a exercitation ullamco laboris nisi ut aliquip.</p>
+                        <div class="living-dreams-button">
+                            <a href="#" class="livings-dreams-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="livings-dreams-wrapping-right">
+                    <div class="livings-dreams-img">
+                        <img class="livings-dreams-wrapping-right-img" src="/assets/image/asset 18.jpeg">
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </section>
+
+    <!------Agency Section------>
+    <section class="agency-section">
+        <div class="agency-section-wrap flex">
+            <div class="agency-section-wrapper">
+                <div class="agency-section-text">
+                    <div class="agency-section-title">
+                        <h6 class="agency-section-header">Lorem ipsum dolor sit amet consectetur</h6>
+                        <h2 class="agency-section-heading">Wexim Agency, Newyork</h2>
+                        <p class="agency-section-para">123 Stree New York City , United States Of America. </p>
+                        <p class="agency-section-para">Office Telephone : 001 01085379709<br>
+                            Mobile : 001 63165370895 </p>   
+                        <p class="agency-section-para">mail : admin@website.com<br>
+                            Inquiries : email@website.com</p>
+                        <div class="heads-team-icon">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-linkedin"></i>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-google-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="agency-form-wrapper">
+
+                <!--Contact Form-->
+                <form class="agency-form-contact">
+                    <div class="agency-form-wrap">
+                        <div class="form-agency">
+                        <div class="agency-form-section-wrapping">
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="First Name:" required="" id="first_name" name="first_name">
+                            </div>
+                        </div>
+                        <div class="agency-form-des">
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Last Name:" required="" id="last_name" name="last_name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-agency">
+                        <div class="agency-form-des">
+                            <div class="form-group">
+                                <input class="form-control" type="email" placeholder="Email:" required="" id="email" name="email">
+                            </div>
+                        </div>
+                        <div class="agency-form-des">
+                            <div class="form-group">
+                                <input class="form-control" type="tel" placeholder="Phone:" id="phone" name="phone">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-agency">
+                        <div class="agency-form-info">
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Message" id="message" name="message"></textarea>
+                            </div>
+                        </div>
+                    </div>  
+                        <div class="agency-form-des-info">
+                            <button type="submit" class="agency-form-button" id="submit_btn"><i class="fa f a-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> <span>Contact Now</span></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+
+
